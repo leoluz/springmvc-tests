@@ -6,7 +6,7 @@ import springapp.domain.Training;
 import springapp.domain.User;
 
 public interface TrainingService {
-	
+
 	public List<Training> getTrainings(User user);
-	
+
 }
